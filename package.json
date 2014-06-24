@@ -1,0 +1,25 @@
+{
+  "name": "ExtremeTechTraining",
+  "version": "0.0.0",
+  "description": "Extreme Tech Training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheldonSides/ExtremeTechTraining.git"
+  },
+  "author": "Sheldon L. Sides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheldonSides/ExtremeTechTraining/issues"
+  },
+  "homepage": "https://github.com/SheldonSides/ExtremeTechTraining",
+  "dependencies": {
+    "express": "^4.4.4",
+    "jade": "^1.3.1",
+    "karma": "^0.12.16",
+    "mongodb": "^1.4.7"
+  }
+}
