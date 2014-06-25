@@ -27,7 +27,7 @@ app.use(stylus.middleware(
 ));
 
 //routes request
-app.get('*',function(req, res){
+app.get('/',function(req, res){
     res.render('index');
 });
 
