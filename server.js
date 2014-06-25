@@ -27,12 +27,17 @@ app.use(stylus.middleware(
 ));
 
 //routes request
+//routes static page request
+app.use(express.static(__dirname + "/public"));
+
+app.get('/partials/:partialPath', function(req, res){
+    res.render('/partials/' + req.params.partialPath);
+})
+
 app.get('/',function(req, res){
     res.render('index');
 });
 
-//routes static page request
-app.use(express.static(__dirname + "/public"));
 
 var port = 8080;
 
